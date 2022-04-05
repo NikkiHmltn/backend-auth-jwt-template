@@ -1,6 +1,8 @@
 # Express Server Template with JWT Auth
 
-This is a simple template for starting off any api that needs some level of authorization to it. The template includes a basic User model that you can customize as you see fit, just make sure you're reflecting those changes in the 'register' route.
+This is a simple template for starting off any api that needs some level of authorization to it. The template includes a basic User model that you can customize as you see fit, just make sure you're reflecting those changes in the 'register' route. This template also utilizes MongoDB Atlas as the assumed database, and it uses Mongoose to provide database queries. 
+
+As usual, please look over the template code to fully adjust yourself to what the controller functions are asking for, and if that's something you'd like to change. As it stands, the controller functions all assume you have named your form inputs properly according to the User model. (ex. `req.body.firstName`).
 
 ## Tech Used
 
@@ -60,3 +62,7 @@ I've made this a template repo so you can easily use this from your Github to st
 1. Click `Use this Template` where you would normally see `Code`
 2. Enter your repository name and settings for your new project as if you were making a new repository.
 3. Click `Create your repository` et voilà! You just used the template for your new project. Have fun! 
+
+## Licensing
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
