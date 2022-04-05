@@ -4,12 +4,12 @@ This is a simple template for starting off any api that needs some level of auth
 
 ## Tech Used
 
--Nodejs
--Express
--Mongoose
--Cors 
--bcryptjs
--jsonwebtoken
+- Nodejs
+- Express
+- Mongoose
+- Cors 
+- bcryptjs
+- jsonwebtoken
 
 ## Routes
 
@@ -45,7 +45,7 @@ const userSchema = new Schema({
    }
 });
 ```
-## Environment Variable's you'll need
+## Environment Variables You'll Need
 
 This template uses 'dotenv', so start by creating a `.env` file to store your sensitive information in.
 
@@ -56,3 +56,7 @@ In order to protect your api's privacy and tighten up security, you'll only need
 
 ## Installation
 
+I've made this a template repo so you can easily use this from your Github to start up your project from. Here's how to use a template: 
+1. Click `Use this Template` where you would normally see `Code`
+2. Enter your repository name and settings for your new project as if you were making a new repository.
+3. Click `Create your repository` et voilà! You just used the template for your new project. Have fun! 
