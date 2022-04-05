@@ -1,0 +1,34 @@
+{
+  "name": "backend-auth-jwt-template",
+  "version": "1.0.0",
+  "description": "This is a template for JWT Auth backend api.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikkiHmltn/backend-auth-jwt-template.git"
+  },
+  "keywords": [
+    "jwt",
+    "auth",
+    "api",
+    "bearer-token"
+  ],
+  "author": "NikkiHmltn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NikkiHmltn/backend-auth-jwt-template/issues"
+  },
+  "homepage": "https://github.com/NikkiHmltn/backend-auth-jwt-template#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10"
+  }
+}
